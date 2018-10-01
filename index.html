@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+  </head>
+  <body>
+        <div>
+     <label>noun:</label>
+     <input type="text" ng-model="yourNoun" placeholder="Enter a noun here">
+                <div>
+      <label>verb:</label>
+     <input type="text" ng-model="yourVerb" placeholder="Enter a verb here">
+      <hr>
+     <h1>AngularJS is {{yourVerb}} fun! It is built using the {{yourNoun}} design pattern</h1>
+      </div>
+     </div>
+     <div>
+    <label>Number:</label>  
+    <input type="number" ng-model="number"placeholder="Enter a number">
+<h1>You entered: {{age}}</h1>
+<div>
+  {{number}} + {{number}}={{number + number}}
+ </div>
+
+
+<input type="type" ng-model="name1"placeholder="name1">
+<input type="type" ng-model="name2"placeholder="name2">
+{{name1 === name2}}
+
+<input type="number" ng-model="num1"placeholder="num1">
+<input type="number" ng-model="num2" placeholder="num2">
+{{ num1 < num2}}
+
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script>
+   </script>
+   </body>
+   </html>
